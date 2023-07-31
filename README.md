@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@deno/mod.js';
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@v0.0.1-deno/mod.js';
 ```
 
 #### empty( dtype, shape, order )
@@ -92,7 +92,7 @@ The function accepts the following arguments:
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
-import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@deno/mod.js';
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@v0.0.1-deno/mod.js';
 
 // Get a list of data types:
 var dt = dtypes();
