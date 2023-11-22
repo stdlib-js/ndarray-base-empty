@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-empty",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create an uninitialized ndarray having a specified shape and data type.",
   "license": "Apache-2.0",
   "author": {
