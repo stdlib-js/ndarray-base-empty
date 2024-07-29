@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-07-13)
+## 0.3.0 (2024-07-29)
 
 <section class="features">
 
@@ -51,16 +51,25 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.2.1 (2024-02-25)
 
-<section class="features">
-
-### Features
-
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0) - update minimum TypeScript version
--   [`c593502`](https://github.com/stdlib-js/stdlib/commit/c593502093613634a80bdb6c6806b8d2477d17d4) - add `ndarray/base/empty`
+No changes reported for this release.
 
 </section>
 
-<!-- /.features -->
+<!-- /.release -->
+
+<section class="release" id="v0.2.0">
+
+## 0.2.0 (2024-02-14)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.1">
+
+## 0.1.1 (2023-11-22)
 
 <section class="bug-fixes">
 
@@ -71,6 +80,53 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`def989d`](https://github.com/stdlib-js/stdlib/commit/def989d20c35d4cb0834e91324177abc8f522626) - **fix:** resolve type declaration typo by removing stray lint directive _(by Philipp Burckhardt)_
+-   [`8c8e3d1`](https://github.com/stdlib-js/stdlib/commit/8c8e3d15f6698c81c75fc94fa10a7e2b9fb8b5d9) - **docs:** update links _(by Athan Reines)_
+-   [`bf2cf8b`](https://github.com/stdlib-js/stdlib/commit/bf2cf8b0424e608a4e3abb6d18a8b44d790aa99c) - **build:** remove tslint directives _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2023-09-24)
+
+<section class="features">
+
+### Features
+
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
 
 <section class="breaking-changes">
 
@@ -91,10 +147,50 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`def989d`](https://github.com/stdlib-js/stdlib/commit/def989d20c35d4cb0834e91324177abc8f522626) - **fix:** resolve type declaration typo by removing stray lint directive _(by Philipp Burckhardt)_
--   [`8c8e3d1`](https://github.com/stdlib-js/stdlib/commit/8c8e3d15f6698c81c75fc94fa10a7e2b9fb8b5d9) - **docs:** update links _(by Athan Reines)_
--   [`bf2cf8b`](https://github.com/stdlib-js/stdlib/commit/bf2cf8b0424e608a4e3abb6d18a8b44d790aa99c) - **build:** remove tslint directives _(by Philipp Burckhardt)_
 -   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.1">
+
+## 0.0.1 (2023-07-31)
+
+<section class="features">
+
+### Features
+
+-   [`c593502`](https://github.com/stdlib-js/stdlib/commit/c593502093613634a80bdb6c6806b8d2477d17d4) - add `ndarray/base/empty`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
 -   [`c593502`](https://github.com/stdlib-js/stdlib/commit/c593502093613634a80bdb6c6806b8d2477d17d4) - **feat:** add `ndarray/base/empty` _(by Athan Reines)_
 
 </details>
@@ -107,10 +203,9 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
 -   Athan Reines
--   Philipp Burckhardt
 
 </section>
 
