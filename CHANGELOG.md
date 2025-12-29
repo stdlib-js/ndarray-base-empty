@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`cadf4e1`](https://github.com/stdlib-js/stdlib/commit/cadf4e1b8d185dd7fe9c48d09651be8681d2f40b) - **docs:** update examples _(by Athan Reines)_
 -   [`7ed84a3`](https://github.com/stdlib-js/stdlib/commit/7ed84a377820c9a20047b7329799467e58bd3171) - **docs:** fix examples _(by Athan Reines)_
 -   [`6b360e5`](https://github.com/stdlib-js/stdlib/commit/6b360e548417af6331cee3ecad0f03f9203b9b16) - **refactor:** support dtype instances by normalizing provided dtypes to strings _(by Athan Reines)_
 
