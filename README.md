@@ -78,13 +78,16 @@ var empty = require( '@stdlib/ndarray-base-empty' );
 Creates an uninitialized [ndarray][@stdlib/ndarray/base/ctor] having a specified shape and [data type][@stdlib/ndarray/dtypes].
 
 ```javascript
+var getShape = require( '@stdlib/ndarray-shape' );
+var getDType = require( '@stdlib/ndarray-dtype' );
+
 var arr = empty( 'float64', [ 2, 2 ], 'row-major' );
 // returns <ndarray>
 
-var sh = arr.shape;
+var sh = getShape( arr );
 // returns [ 2, 2 ]
 
-var dt = arr.dtype;
+var dt = String( getDType( arr ) );
 // returns 'float64'
 ```
 
@@ -124,7 +127,7 @@ var dtypes = require( '@stdlib/ndarray-dtypes' );
 var empty = require( '@stdlib/ndarray-base-empty' );
 
 // Get a list of data types:
-var dt = dtypes();
+var dt = dtypes( 'integer_and_generic' );
 
 // Generate uninitialized arrays...
 var arr;
@@ -207,8 +210,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
