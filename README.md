@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@esm/index.mjs';
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@v0.3.2-esm/index.mjs';
 ```
 
 #### empty( dtype, shape, order )
@@ -112,7 +112,7 @@ The function accepts the following arguments:
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@esm/index.mjs';
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@v0.3.2-esm/index.mjs';
 
 // Get a list of data types:
 var dt = dtypes( 'integer_and_generic' );
