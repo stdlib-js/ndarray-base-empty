@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-empty/tags). For example,
+
+```javascript
 import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@v0.3.2-esm/index.mjs';
 ```
 
@@ -112,7 +117,7 @@ The function accepts the following arguments:
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@v0.3.2-esm/index.mjs';
+import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@esm/index.mjs';
 
 // Get a list of data types:
 var dt = dtypes( 'integer_and_generic' );
